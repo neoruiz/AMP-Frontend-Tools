@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'notify' ]
+2 info using npm@1.2.11
+3 info using node@v0.8.20
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose read json C:\work\AMP Frontend Tools\package.json
+6 warn package.json application-name@2.0.0 No README.md file found!
+7 verbose read json C:\work\AMP Frontend Tools\node_modules\everyauth\package.json
+8 verbose read json C:\work\AMP Frontend Tools\node_modules\express\package.json
+9 verbose read json C:\work\AMP Frontend Tools\node_modules\grunt-notify\package.json
+10 verbose read json C:\work\AMP Frontend Tools\node_modules\jade\package.json
+11 verbose read json C:\work\AMP Frontend Tools\node_modules\less-middleware\package.json
+12 verbose read json C:\work\AMP Frontend Tools\node_modules\nconf\package.json
+13 verbose read json C:\work\AMP Frontend Tools\node_modules\recaptcha\package.json
+14 verbose read json C:\work\AMP Frontend Tools\node_modules\socket.io\package.json
+15 verbose from cache C:\work\AMP Frontend Tools\package.json
+16 info shrinkwrap file "C:\\work\\AMP Frontend Tools\\npm-shrinkwrap.json"
+17 verbose readDependencies returned deps { express: '3.1.0',
+17 verbose readDependencies returned deps   jade: '0.28.1',
+17 verbose readDependencies returned deps   'less-middleware': '0.1.9',
+17 verbose readDependencies returned deps   nconf: '0.6.7',
+17 verbose readDependencies returned deps   'socket.io': '0.9.13',
+17 verbose readDependencies returned deps   everyauth: 'https://github.com/bnoguchi/everyauth/tarball/express3',
+17 verbose readDependencies returned deps   recaptcha: '1.2.0' }
+18 verbose cache add [ 'notify', null ]
+19 verbose cache add name=undefined spec="notify" args=["notify",null]
+20 verbose parsed url { pathname: 'notify', path: 'notify', href: 'notify' }
+21 silly lockFile 4f08301d-notify notify
+22 verbose lock notify C:\Users\adMarketplace\AppData\Roaming\npm-cache\4f08301d-notify.lock
+23 silly lockFile 4f08301d-notify notify
+24 silly lockFile 4f08301d-notify notify
+25 verbose addNamed [ 'notify', '' ]
+26 verbose addNamed [ null, '' ]
+27 silly lockFile e5e1da5f-notify notify@
+28 verbose lock notify@ C:\Users\adMarketplace\AppData\Roaming\npm-cache\e5e1da5f-notify.lock
+29 silly addNameRange { name: 'notify', range: '', hasData: false }
+30 verbose url raw notify
+31 verbose url resolving [ 'https://registry.npmjs.org/', './notify' ]
+32 verbose url resolved https://registry.npmjs.org/notify
+33 info trying registry request attempt 1 at 11:30:29
+34 verbose etag "9D9RFTEZT2KVP4Z8HYPRH7VD"
+35 http GET https://registry.npmjs.org/notify
+36 http 304 https://registry.npmjs.org/notify
+37 silly registry.get cb [ 304,
+37 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+37 silly registry.get     etag: '"9D9RFTEZT2KVP4Z8HYPRH7VD"',
+37 silly registry.get     date: 'Wed, 04 Sep 2013 15:30:26 GMT',
+37 silly registry.get     'content-length': '0' } ]
+38 verbose etag notify from cache
+39 silly addNameRange number 2 { name: 'notify', range: '', hasData: true }
+40 silly addNameRange versions [ 'notify', [ '0.1.0' ] ]
+41 verbose addNamed [ 'notify', '0.1.0' ]
+42 verbose addNamed [ '0.1.0', '0.1.0' ]
+43 silly lockFile b0e6374d-notify-0-1-0 notify@0.1.0
+44 verbose lock notify@0.1.0 C:\Users\adMarketplace\AppData\Roaming\npm-cache\b0e6374d-notify-0-1-0.lock
+45 verbose read json C:\Users\adMarketplace\AppData\Roaming\npm-cache\notify\0.1.0\package\package.json
+46 silly lockFile b0e6374d-notify-0-1-0 notify@0.1.0
+47 silly lockFile b0e6374d-notify-0-1-0 notify@0.1.0
+48 silly lockFile e5e1da5f-notify notify@
+49 silly lockFile e5e1da5f-notify notify@
+50 silly resolved [ { name: 'notify',
+50 silly resolved     version: '0.1.0',
+50 silly resolved     description: 'Native Node.js C++ extension for displaying desktop notifications using GNOME\'s libnotify library.',
+50 silly resolved     homepage: 'https://github.com/olalonde/node-notify',
+50 silly resolved     author:
+50 silly resolved      { name: 'Olivier Lalonde',
+50 silly resolved        email: 'olalonde@gmail.com',
+50 silly resolved        url: 'http://www.syskall.com/' },
+50 silly resolved     repository:
+50 silly resolved      { type: 'git',
+50 silly resolved        url: 'https://github.com/olalonde/node-notify.git' },
+50 silly resolved     scripts:
+50 silly resolved      { preinstall: 'node-waf configure && node-waf build',
+50 silly resolved        preuninstall: 'rm -rf build/*' },
+50 silly resolved     main: 'build/default/gtknotify.node',
+50 silly resolved     readme: '__THIS IS A WORK IN PROGRESS! THE TUTO WILL BE UP ON [HTTP://SYSKALL.COM](HTTP://SYSKALL.COM) WITHIN A FEW DAYS__\n\nPart 1 (building a V8 extension) available here: [http://syskall.com/how-to-roll-out-your-own-javascript-api-with](http://syskall.com/how-to-roll-out-your-own-javascript-api-with)\n\n## Install ##\n\n    node-waf configure && node-waf build\n\n## References ##\n\n- [https://www.cloudkick.com/blog/2010/aug/23/writing-nodejs-native-extensions/]()\n- [https://github.com/pquerna/node-extension-examples](https://github.com/pquerna/node-extension-examples)\n- [http://code.google.com/apis/v8/embed.html](http://code.google.com/apis/v8/embed.html)\n- irc.freenode.org #v8 #node.js\n- [https://github.com/ncb000gt/node.bcrypt.js](https://github.com/ncb000gt/node.bcrypt.js)\n- [https://github.com/joyent/node](https://github.com/joyent/node)\n',
+50 silly resolved     readmeFilename: 'README.md',
+50 silly resolved     _id: 'notify@0.1.0',
+50 silly resolved     _from: 'notify@' } ]
+51 info install notify@0.1.0 into C:\work\AMP Frontend Tools
+52 info installOne notify@0.1.0
+53 verbose from cache C:\Users\adMarketplace\AppData\Roaming\npm-cache\notify\0.1.0\package\package.json
+54 info C:\work\AMP Frontend Tools\node_modules\notify unbuild
+55 verbose read json C:\work\AMP Frontend Tools\node_modules\notify\package.json
+56 verbose tar unpack C:\Users\adMarketplace\AppData\Roaming\npm-cache\notify\0.1.0\package.tgz
+57 silly lockFile 9a89cb36-ontend-Tools-node-modules-notify C:\work\AMP Frontend Tools\node_modules\notify
+58 verbose lock C:\work\AMP Frontend Tools\node_modules\notify C:\Users\adMarketplace\AppData\Roaming\npm-cache\9a89cb36-ontend-Tools-node-modules-notify.lock
+59 silly lockFile 190f3c13-m-cache-notify-0-1-0-package-tgz C:\Users\adMarketplace\AppData\Roaming\npm-cache\notify\0.1.0\package.tgz
+60 verbose lock C:\Users\adMarketplace\AppData\Roaming\npm-cache\notify\0.1.0\package.tgz C:\Users\adMarketplace\AppData\Roaming\npm-cache\190f3c13-m-cache-notify-0-1-0-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+68 silly gunzTarPerm extractEntry LICENSE
+69 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+70 silly gunzTarPerm extractEntry demo/demo.js
+71 silly gunzTarPerm modified mode [ 'demo/demo.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry src/node_gtknotify.cpp
+73 silly gunzTarPerm modified mode [ 'src/node_gtknotify.cpp', 438, 420 ]
+74 silly gunzTarPerm extractEntry TUTORIAL.md
+75 silly gunzTarPerm modified mode [ 'TUTORIAL.md', 438, 420 ]
+76 silly gunzTarPerm extractEntry wscript
+77 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+78 verbose read json C:\work\AMP Frontend Tools\node_modules\notify\package.json
+79 silly lockFile 9a89cb36-ontend-Tools-node-modules-notify C:\work\AMP Frontend Tools\node_modules\notify
+80 silly lockFile 9a89cb36-ontend-Tools-node-modules-notify C:\work\AMP Frontend Tools\node_modules\notify
+81 silly lockFile 190f3c13-m-cache-notify-0-1-0-package-tgz C:\Users\adMarketplace\AppData\Roaming\npm-cache\notify\0.1.0\package.tgz
+82 silly lockFile 190f3c13-m-cache-notify-0-1-0-package-tgz C:\Users\adMarketplace\AppData\Roaming\npm-cache\notify\0.1.0\package.tgz
+83 info preinstall notify@0.1.0
+84 verbose unsafe-perm in lifecycle true
+85 silly exec cmd "/c" "node-waf configure && node-waf build"
+86 silly cmd,/c,node-waf configure && node-waf build,C:\work\AMP Frontend Tools\node_modules\notify spawning
+87 info notify@0.1.0 Failed to exec preinstall script
+88 info C:\work\AMP Frontend Tools\node_modules\notify unbuild
+89 verbose from cache C:\work\AMP Frontend Tools\node_modules\notify\package.json
+90 info preuninstall notify@0.1.0
+91 verbose unsafe-perm in lifecycle true
+92 silly exec cmd "/c" "rm -rf build/*"
+93 silly cmd,/c,rm -rf build/*,C:\work\AMP Frontend Tools\node_modules\notify spawning
+94 info notify@0.1.0 Failed to exec preuninstall script
+95 warn continuing anyway notify@0.1.0 preuninstall: `rm -rf build/*`
+95 warn continuing anyway `cmd "/c" "rm -rf build/*"` failed with 1
+96 info uninstall notify@0.1.0
+97 verbose true,C:\work\AMP Frontend Tools\node_modules,C:\work\AMP Frontend Tools\node_modules unbuild notify@0.1.0
+98 info postuninstall notify@0.1.0
+99 error notify@0.1.0 preinstall: `node-waf configure && node-waf build`
+99 error `cmd "/c" "node-waf configure && node-waf build"` failed with 1
+100 error Failed at the notify@0.1.0 preinstall script.
+100 error This is most likely a problem with the notify package,
+100 error not with npm itself.
+100 error Tell the author that this fails on your system:
+100 error     node-waf configure && node-waf build
+100 error You can get their info via:
+100 error     npm owner ls notify
+100 error There is likely additional logging output above.
+101 error System Windows_NT 6.1.7601
+102 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "notify"
+103 error cwd C:\work\AMP Frontend Tools
+104 error node -v v0.8.20
+105 error npm -v 1.2.11
+106 error code ELIFECYCLE
+107 verbose exit [ 1, true ]
